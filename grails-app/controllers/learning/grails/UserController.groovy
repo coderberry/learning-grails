@@ -4,6 +4,8 @@ import com.learninggrails.SecUser
 
 class UserController {
 
+    def springSecurityService
+
     def signup() {
         def user = new SecUser(
                 username: 'foo'
@@ -15,6 +17,7 @@ class UserController {
         def user = new SecUser()
         user.properties = params
         if (!user.hasErrors() && user.save(flush: true)) {
+            springSecurityService.reauthenticate(user.username, user.password)
             flash.message = "Your account has been created. Thank you for joining us!"
             redirect controller: 'home', action: 'index'
         }

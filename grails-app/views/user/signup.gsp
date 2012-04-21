@@ -1,9 +1,12 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
+  <meta name='layout' content='main'/>
   <title>Signup</title>
 </head>
 <body>
+
+${user?.errors?.inspect()}
 
 <g:if test="${flash.message}">
     <div class="message">${flash.message}</div>

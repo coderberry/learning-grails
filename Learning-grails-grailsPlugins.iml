@@ -5,11 +5,12 @@
       <configuration>
         <webroots>
           <root url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/jquery-1.7.1/web-app" relative="/" />
+          <root url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/jquery-ui-1.8.15/web-app" relative="/" />
+          <root url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/cache-headers-1.1.5/web-app" relative="/" />
           <root url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/zipped-resources-1.0/web-app" relative="/" />
           <root url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/zipped-resources-1.0/grails-app/views" relative="/" />
           <root url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/cached-resources-1.0/web-app" relative="/" />
           <root url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/cached-resources-1.0/grails-app/views" relative="/" />
-          <root url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/cache-headers-1.1.5/web-app" relative="/" />
         </webroots>
         <sourceRoots />
       </configuration>
@@ -38,6 +39,10 @@
       <sourceFolder url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/jquery-1.7.1/grails-app/i18n" isTestSource="false" />
       <sourceFolder url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/jquery-1.7.1/grails-app/services" isTestSource="false" />
       <sourceFolder url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/jquery-1.7.1/grails-app/taglib" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/jquery-ui-1.8.15">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/jquery-ui-1.8.15/grails-app/i18n" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/jquery-ui-1.8.15/grails-app/taglib" isTestSource="false" />
     </content>
     <content url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/resources-1.1.6">
       <sourceFolder url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/resources-1.1.6/src/java" isTestSource="false" />
