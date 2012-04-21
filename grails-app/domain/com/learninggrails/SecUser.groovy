@@ -2,6 +2,8 @@ package com.learninggrails
 
 class SecUser {
 
+    static hasMany = [posts: Post]
+
 	transient springSecurityService
 
 	String username

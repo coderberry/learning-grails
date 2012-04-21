@@ -1,6 +1,4 @@
-package learning.grails
-
-import com.learninggrails.SecUser
+package com.learninggrails
 
 class UserController {
 

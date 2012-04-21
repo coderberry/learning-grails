@@ -1,4 +1,4 @@
-package learning.grails
+package com.learninggrails
 
 class HomeController {
 

@@ -2,17 +2,13 @@
 <html>
 <head>
     <meta name='layout' content='main'/>
-  <title></title>
+    <r:require modules="core"/>
+    <title>Learning Grails</title>
 </head>
+
 <body>
 
-<sec:ifLoggedIn>
-    Logged in as <sec:username/>
-    <g:link controller="logout">Logout</g:link>
-</sec:ifLoggedIn>
-<sec:ifNotLoggedIn>
-    <g:link controller="login">Login</g:link>
-</sec:ifNotLoggedIn>
+FOO
 
 </body>
 </html>
