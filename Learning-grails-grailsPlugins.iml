@@ -11,6 +11,9 @@
           <root url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/zipped-resources-1.0/grails-app/views" relative="/" />
           <root url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/cached-resources-1.0/web-app" relative="/" />
           <root url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/cached-resources-1.0/grails-app/views" relative="/" />
+          <root url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/console-1.1/web-app" relative="/" />
+          <root url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/console-1.1/grails-app/views" relative="/" />
+          <root url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/markdown-1.0.0.RC1/web-app" relative="/" />
         </webroots>
         <sourceRoots />
       </configuration>
@@ -23,6 +26,10 @@
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
+    <content url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/avatar-0.6.1">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/avatar-0.6.1/src/java" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/avatar-0.6.1/grails-app/taglib" isTestSource="false" />
+    </content>
     <content url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/cache-headers-1.1.5">
       <sourceFolder url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/cache-headers-1.1.5/grails-app/i18n" isTestSource="false" />
       <sourceFolder url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/cache-headers-1.1.5/grails-app/services" isTestSource="false" />
@@ -30,6 +37,10 @@
     <content url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/cached-resources-1.0">
       <sourceFolder url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/cached-resources-1.0/src/groovy" isTestSource="false" />
       <sourceFolder url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/cached-resources-1.0/grails-app/i18n" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/console-1.1">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/console-1.1/grails-app/controllers" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/console-1.1/grails-app/services" isTestSource="false" />
     </content>
     <content url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/hibernate-2.0.3">
       <sourceFolder url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/hibernate-2.0.3/grails-app/i18n" isTestSource="false" />
@@ -43,6 +54,12 @@
     <content url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/jquery-ui-1.8.15">
       <sourceFolder url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/jquery-ui-1.8.15/grails-app/i18n" isTestSource="false" />
       <sourceFolder url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/jquery-ui-1.8.15/grails-app/taglib" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/markdown-1.0.0.RC1">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/markdown-1.0.0.RC1/src/java" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/markdown-1.0.0.RC1/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/markdown-1.0.0.RC1/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/markdown-1.0.0.RC1/grails-app/taglib" isTestSource="false" />
     </content>
     <content url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/resources-1.1.6">
       <sourceFolder url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/resources-1.1.6/src/java" isTestSource="false" />
@@ -73,12 +90,33 @@
     <orderEntry type="module-library" exported="">
       <library name="Grails User Library (Learning-grails-grailsPlugins)">
         <CLASSES>
+          <root url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/yui-minify-resources-0.1.4/lib" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.springframework.security/spring-security-web/jars/spring-security-web-3.0.7.RELEASE.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.springframework.security/spring-security-core/jars/spring-security-core-3.0.7.RELEASE.jar!/" />
-          <root url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/yui-minify-resources-0.1.4/lib" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/commons-httpclient/commons-httpclient/jars/commons-httpclient-3.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/xerces/xercesImpl/jars/xercesImpl-2.4.0.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/xml-resolver/xml-resolver/jars/xml-resolver-1.2.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/net.sourceforge.nekohtml/nekohtml/jars/nekohtml-1.9.9.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/net.sf.ezmorph/ezmorph/jars/ezmorph-1.0.6.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/net.sf.json-lib/json-lib/jars/json-lib-2.3-jdk15.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.0.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.0.3.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.codehaus.groovy.modules.http-builder/http-builder/jars/http-builder-0.5.2.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/asm/asm-analysis/jars/asm-analysis-3.3.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/asm/asm-tree/jars/asm-tree-3.3.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/asm/asm-util/jars/asm-util-3.3.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/asm/asm/jars/asm-3.3.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.parboiled/parboiled-java/jars/parboiled-java-1.0.2.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.parboiled/parboiled-core/jars/parboiled-core-1.0.2.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.pegdown/pegdown/jars/pegdown-1.1.0.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.0.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.jsoup/jsoup/jars/jsoup-1.6.1.jar!/" />
+          <root url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/markdown-1.0.0.RC1/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
+        <jarDirectory url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/markdown-1.0.0.RC1/lib" recursive="false" />
         <jarDirectory url="file://$USER_HOME$/.grails/2.0.3/projects/learning-grails/plugins/yui-minify-resources-0.1.4/lib" recursive="false" />
       </library>
     </orderEntry>

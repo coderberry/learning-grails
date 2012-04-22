@@ -47,6 +47,25 @@
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.springframework.security/spring-security-web/jars/spring-security-web-3.0.7.RELEASE.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.springframework.security/spring-security-core/jars/spring-security-core-3.0.7.RELEASE.jar!/" />
           <root url="file://$MODULE_DIR$/lib" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/commons-httpclient/commons-httpclient/jars/commons-httpclient-3.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/xerces/xercesImpl/jars/xercesImpl-2.4.0.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/xml-resolver/xml-resolver/jars/xml-resolver-1.2.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/net.sourceforge.nekohtml/nekohtml/jars/nekohtml-1.9.9.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/net.sf.ezmorph/ezmorph/jars/ezmorph-1.0.6.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/net.sf.json-lib/json-lib/jars/json-lib-2.3-jdk15.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.0.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.0.3.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.codehaus.groovy.modules.http-builder/http-builder/jars/http-builder-0.5.2.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/asm/asm-analysis/jars/asm-analysis-3.3.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/asm/asm-tree/jars/asm-tree-3.3.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/asm/asm-util/jars/asm-util-3.3.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/asm/asm/jars/asm-3.3.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.parboiled/parboiled-java/jars/parboiled-java-1.0.2.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.parboiled/parboiled-core/jars/parboiled-core-1.0.2.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.pegdown/pegdown/jars/pegdown-1.1.0.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.0.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.jsoup/jsoup/jars/jsoup-1.6.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

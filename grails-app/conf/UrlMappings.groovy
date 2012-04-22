@@ -7,11 +7,11 @@ class UrlMappings {
 			}
 		}
 
-        "/signup/$action?"(controller: "user", action: "signup")
+        "/signup"(controller: "user", action: "signup")
         "/login/$action?"(controller: "login")
         "/logout/$action?"(controller: "logout")
 
-        "/"(controller: "home", action: "index")
+        "/"(controller: "post", action: "list")
 		"500"(view:'/error')
 	}
 }

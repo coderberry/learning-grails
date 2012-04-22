@@ -37,6 +37,9 @@ grails.project.dependency.resolution = {
         runtime ":yui-minify-resources:0.1.4"
         runtime ":spring-security-core:1.2.7.3"
         compile ":cache-headers:1.1.5"
+        compile ":console:1.1"
+        compile ":avatar:0.6.1"
+        compile ":markdown:1.0.0.RC1"
 
         build ":tomcat:$grailsVersion"
     }

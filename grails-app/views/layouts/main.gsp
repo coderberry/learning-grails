@@ -27,21 +27,24 @@
             <a class="brand" href="#">Learning Grails</a>
 
             <div class="nav-collapse">
-                <ul class="nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-
-                <p class="navbar-text pull-right">
+                <ul class="nav pull-right">
+                    <li <g:if test="${controllerName == 'post' && actionName == 'list'}">class="active"</g:if>>
+                        <g:link controller="post" action="list">Home</g:link></li>
+                    <li <g:if test="${controllerName == 'post' && actionName == 'create'}">class="active"</g:if>>
+                        <g:link controller="post" action="create">Submit</g:link></li>
                     <sec:ifLoggedIn>
-                        Logged in as <sec:username/>
-                        <g:link controller="logout">[logout]</g:link>
+                        <li><g:link url="#"><sec:username/></g:link></li>
+                        <li><g:link controller="logout">Logout</g:link></li>
                     </sec:ifLoggedIn>
                     <sec:ifNotLoggedIn>
-                        <g:link controller="login">Login</g:link>
+                        <li <g:if test="${controllerName == 'user' && actionName == 'signup'}">class="active"</g:if>>
+                            <g:link controller="user" action="signup">Signup</g:link></li>
+                        <li <g:if test="${controllerName == 'login'}">class="active"</g:if>>
+                            <g:link controller="login">Login</g:link></li>
                     </sec:ifNotLoggedIn>
-                </p>
+                    <li><a href="#contact">Leaders</a></li>
+                    <li><a href="#contact">Feed</a></li>
+                </ul>
             </div><!--/.nav-collapse -->
         </div>
     </div>
